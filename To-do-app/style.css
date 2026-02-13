@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: salmon;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 550px;
+    height: 250px;
+    background-color: honeydew;
+    border-radius: 10px;
+    border-color: solid salmon;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: salmon;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#field {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: salmon;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 5px;
+    border-color: salmon;
+    padding: 10px;
+}
