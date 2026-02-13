@@ -14,7 +14,7 @@ body {
 
 .card {
     width: 550px;
-    height: 250px;
+    min-height: 250px;
     background-color: honeydew;
     border-radius: 10px;
     border-color: solid salmon;
@@ -33,7 +33,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 #field {
@@ -48,4 +48,27 @@ h1 {
     border-radius: 5px;
     border-color: salmon;
     padding: 10px;
+    cursor: pointer;
+}
+.tasklist{
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.tasklist li{
+    margin-bottom: 8px;
+    color: salmon;
+}
+.del-btn{
+    background-color: white;
+    border-radius: 5px;
+    border-color: salmon;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+    cursor: pointer;
 }
