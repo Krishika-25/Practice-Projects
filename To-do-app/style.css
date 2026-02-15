@@ -49,6 +49,7 @@ h1 {
     border-color: salmon;
     padding: 10px;
     cursor: pointer;
+    color: salmon;
 }
 .tasklist{
     margin-top: 20px;
@@ -66,9 +67,41 @@ h1 {
     padding-right: 5px;
     margin-left: 10px;
     cursor: pointer;
+    color: salmon;
 }
 .completed{
     text-decoration: line-through;
     opacity: 0.6;
     cursor: pointer;
+}
+.counter{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: salmon;
+    font-weight: bold;
+}
+.edit-btn{
+    background-color: white;
+    border-radius: 5px;
+    border-color: salmon;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.clear-btn{
+    display: block;
+    margin: 15px auto 0 auto;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid salmon;
+    color: salmon;
+    cursor: pointer;
+    font-weight: bold;
+}
+.clear-btn:hover{
+    background-color: salmon;
+    color: white;
 }
