@@ -38,3 +38,7 @@ A simple web app to keep track of your tasks.
 
 - Tasks are saved in the browser so they stay even after refreshing.  
 - Works on any modern browser.
+
+## Screenshot
+
+![To-do app screenshot](todo.png)
