@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(123, 194, 197);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 500px;
+    height: 300px;
+    background-color: azure;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+}
+.main h1{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#city-input{
+    padding: 7px;
+    margin-top: 50px;
+}
+#SearchBtn{
+    padding: 7px;
+    cursor: pointer;
+}
+
