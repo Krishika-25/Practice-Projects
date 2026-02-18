@@ -53,3 +53,29 @@ body {
 .Input-area button {
     margin-top: 15px;
 }
+
+.weather-box{
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgb(123, 194, 197);
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.city{
+    font-size: 22px;
+    font-weight: bold;
+}
+.temp{
+    font-size: 30px;
+    font-weight: bold;
+}
+.condition{
+    font-size: 16px;
+}
