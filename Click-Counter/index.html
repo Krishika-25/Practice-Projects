@@ -4,15 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click-Counter</title>
+    <title>Click Counter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 id="count">0</h1>
-    <button id="inc">Increase</button>
-    <button id="dec">Decrease</button>
-    <button id="reset">Reset</button>
+    <div class="container">
+        <h1 id="count">0</h1>
+        <div class="buttons">
+            <button id="inc">Increase</button>
+            <button id="dec">Decrease</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <h2>History:</h2>
+        <ul id="history"></ul>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
