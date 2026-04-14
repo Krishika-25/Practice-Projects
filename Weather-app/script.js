@@ -1,6 +1,6 @@
 let cityInput = document.getElementById("city-input");
 let searchBtn = document.getElementById("SearchBtn");
-let apiKey = "ff71243e917cd70febd745ca27c7b0fe";
+let apiKey = "Your_API_Key";
 
 let weatherBox = document.querySelector(".weather-box");
 
