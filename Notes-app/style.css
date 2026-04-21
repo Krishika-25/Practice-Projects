@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.app {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* HEADER */
+.header {
+    background: white;
+    padding: 18px 22px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.main-heading {
+    font-size: 24px;
+    color: #333;
+}
+
+.add-note-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-note-btn:hover {
+    background: #5a67d8;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.note-input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    transition: 0.2s;
+}
+
+.note-input:focus {
+    box-shadow: 0 5px 14px rgba(102, 126, 234, 0.4);
+    transform: scale(1.01);
+}
+
+.note-input::placeholder {
+    color: #aaa;
+}
